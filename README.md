@@ -22,4 +22,4 @@ Let’s recap the key concepts of creating a Makefile.
 * all: You may notice this line looks a little different than the above lines, with the commands on the same line. This will execute our install, lint and test commands.
 
 for this project was used materials from: 
-https://github.com/EredjepKadyrov/DevOps_Microservices
+https://github.com/udacity/DevOps_Microservices
