@@ -10,9 +10,12 @@ Let’s recap the key concepts of creating a Makefile.
 
 * test: This is broken into two parts for testing.
 
-** First, it will use .py files in the tests directory. The -vv flag ensures short test durations are still shown (see documentation), while the -cov flag helps to calculate what the test coverage of the code is (see documentation) in a given directory.
+     * First, it will use .py files in the tests directory. The -vv flag ensures short test durations are still shown (see    
+     documentation),      while the -cov flag helps to calculate what the test coverage of the code is (see documentation) in a given
+     directory.
 
-** The second line is used to test Jupyter Notebook cells. The --nbval flag makes pytest pay attention to jupyter notebooks (see documentation).
+     * The second line is used to test Jupyter Notebook cells. The --nbval flag makes pytest pay attention to jupyter notebooks (see     
+      documentation).
 
 * lint: This will lint what is in the myrepolib directory, as well as the cli.py and web.py files in our current directory (see video). The --disable=R,C is used to disable the "convention" (C) and "refactor" (R) message classes (see related Stack Overflow post).
 
